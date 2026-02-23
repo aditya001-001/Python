@@ -11,3 +11,13 @@ In this section I learned:
 - type conversion
 
 This repository documents my journey of Intership
+
+# Python 
+
+## Topics Covered
+
+1. Variables and Data Types
+2. Input and Output
+
+This repository documents my journey of Intership
+
