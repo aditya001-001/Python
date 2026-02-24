@@ -1,7 +1,7 @@
 # Python
 ##  This repository documents my journey of Intership
 
-## 1. Variables and Data Types
+## 1. Topic: Variables and Data Types
 
 In this section I learned:
 - int
@@ -23,13 +23,7 @@ Is Student: True
 <class 'bool'>  
 60  
 
-# Python 
-
-## Topics Covered
-
-1. Variables and Data Types
-2. Input and Output
-
+# 2 Topic:Input Output Statements:
 ### Output of input_output.py:
 Enter your name: aditya  
 Enter your age: 22  
@@ -40,7 +34,7 @@ Enter second number: 69
 Addition: 89  
 Multiplication: 1380  
 
-## Topic Covered Operators:
+## 3 Topic : Operators:
 
 ### Output of operators.py
 Addition: 13   
@@ -57,6 +51,16 @@ Is a less than b? False
 AND: False  
 OR: True  
 NOT x: False  
+
+# 4 Topic : Conditional statements
+
+## output of conditional_statement.py
+Iron man
+shakti man
+Enter your age: 1
+You are not eligible to vote.
+Enter your marks: 65
+Grade: C
 
 
 
