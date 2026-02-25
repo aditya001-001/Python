@@ -23,7 +23,7 @@ Is Student: True
 <class 'bool'>  
 60  
 
-# 2 Topic:Input Output Statements:
+## 2. Topic:Input Output Statements:
 ### Output of input_output.py:
 Enter your name: aditya  
 Enter your age: 22  
@@ -34,7 +34,7 @@ Enter second number: 69
 Addition: 89  
 Multiplication: 1380  
 
-## 3 Topic : Operators:
+## 3. Topic : Operators:
 
 ### Output of operators.py
 Addition: 13   
@@ -52,7 +52,7 @@ AND: False
 OR: True  
 NOT x: False  
 
-# 4 Topic : Conditional statements
+## 4. Topic : Conditional statements
 
 ## output of conditional_statement.py
 Iron man
