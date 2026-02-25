@@ -55,12 +55,12 @@ NOT x: False
 ## 4. Topic : Conditional statements
 
 ## output of conditional_statement.py
-Iron man
-shakti man
-Enter your age: 1
-You are not eligible to vote.
-Enter your marks: 65
-Grade: C
+Iron man  
+shakti man  
+Enter your age: 1  
+You are not eligible to vote.  
+Enter your marks: 65  
+Grade: C  
 
 
 
