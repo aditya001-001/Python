@@ -84,11 +84,11 @@ else:
 # Example:
 # 2000 → Leap
 # 1900 → Not Leap
-year=int(input("Enter the year:"))
+'''year=int(input("Enter the year:"))
 if (year%4==0 or year%100!=0) and (year%400==0):
     print("Leap Year")
 else:
-    print("Not Leap year")
+    print("Not Leap year")'''
 
 # 9️⃣ Simple Calculator
 # Take:
@@ -96,6 +96,22 @@ else:
 # Number 2
 # Operator (+, -, *, /)
 # Perform calculation based on operator.
+'''number1=int(input(" Enter a Number :"))
+number2=int(input(" Enter a Number:"))
+operation=input(" Enter + for Addition \n Enter * for Multiplication \n Enter - for  Substraction \n Enter / for Divition\n-->" )
+if operation=='+':
+    print("Result:",number1+number2)
+elif operation=='*':
+    print("Result:",number1*number2)
+elif operation=='-':
+    print("Result:",number1-number2)
+elif operation=='/':
+    if number2!=0:
+        print("Result:",number1/number2)
+    else:
+        print("Infinity")
+else:
+    print("Please enter valid operation")'''
 
 # 🔟 Check Voting Eligibility
 # Input:
@@ -104,6 +120,12 @@ else:
 # Eligible only if:
 # Age >= 18
 # Citizenship is True
+'''age=int(input("Enter your age:" ))
+Citizenship=int(input("Enter 1 if your are a citizen else 0:"))
+if age>=18 and Citizenship==1:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")'''
 
 
 
