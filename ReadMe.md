@@ -192,7 +192,7 @@ for i in range(3):
     for j in range(2):
         print(i, j)
 ```
-6. Funtions:
+# 6. Funtions:
 # Python Functions
 
 Functions are reusable blocks of code used to perform a specific task.
@@ -318,3 +318,150 @@ def countdown(n):
 countdown(5)
 ```
 
+# 7.List:
+# Python Lists
+
+A list is used to store multiple items in a single variable.
+
+Lists are:
+- ordered
+- changeable (mutable)
+- allow duplicate values
+
+---
+
+# Creating a List
+
+## Example
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+print(numbers)
+```
+
+---
+
+# Accessing List Elements
+
+Indexing starts from 0.
+
+## Example
+
+```python
+fruits = ["apple", "banana", "mango"]
+
+print(fruits[0])
+print(fruits[1])
+```
+
+---
+
+# Negative Indexing
+
+`-1` refers to the last item.
+
+## Example
+
+```python
+print(fruits[-1])
+```
+
+---
+
+# List Slicing
+
+Used to access a range of elements.
+
+## Example
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+print(numbers[1:4])
+```
+
+---
+
+# Adding Elements
+
+## append()
+
+Adds element at the end.
+
+```python
+fruits.append("orange")
+```
+
+## insert()
+
+Adds element at a specific position.
+
+```python
+fruits.insert(1, "grapes")
+```
+
+---
+
+# Removing Elements
+
+## remove()
+
+```python
+fruits.remove("banana")
+```
+
+## pop()
+
+Removes using index.
+
+```python
+fruits.pop(1)
+```
+
+---
+
+# Looping Through Lists
+
+## Example
+
+```python
+for item in fruits:
+    print(item)
+```
+
+---
+
+# List Length
+
+## Example
+
+```python
+print(len(fruits))
+```
+
+---
+
+# Sorting Lists
+
+## Example
+
+```python
+numbers.sort()
+
+print(numbers)
+```
+
+---
+
+# List Comprehension
+
+A short way to create lists.
+
+## Example
+
+```python
+squares = [x*x for x in range(5)]
+
+print(squares)
+```
