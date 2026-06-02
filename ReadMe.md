@@ -192,5 +192,129 @@ for i in range(3):
     for j in range(2):
         print(i, j)
 ```
+6. Funtions:
+# Python Functions
 
+Functions are reusable blocks of code used to perform a specific task.
+
+They help:
+- reduce code repetition
+- improve readability
+- organize programs
+
+---
+
+# Creating a Function
+
+## Syntax
+
+```python
+def function_name():
+    # code
+```
+
+## Example
+
+```python
+def greet():
+    print("Hello")
+    
+greet()
+```
+
+---
+
+# Function with Parameters
+
+Parameters allow values to be passed into functions.
+
+## Example
+
+```python
+def greet(name):
+    print("Hello", name)
+
+greet("Aditya")
+```
+
+---
+
+# Function with Return Value
+
+The `return` statement sends a value back.
+
+## Example
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+
+print(result)
+```
+
+---
+
+# Default Parameters
+
+Default values can be assigned to parameters.
+
+## Example
+
+```python
+def country(name="India"):
+    print(name)
+
+country()
+country("USA")
+```
+
+---
+
+# Keyword Arguments
+
+Arguments can be passed using parameter names.
+
+## Example
+
+```python
+def student(name, age):
+    print(name, age)
+
+student(age=21, name="Aditya")
+```
+
+---
+
+# Arbitrary Arguments
+
+`*args` allows multiple values.
+
+## Example
+
+```python
+def numbers(*num):
+    print(num)
+
+numbers(1, 2, 3, 4)
+```
+
+---
+
+# Recursive Function
+
+A function calling itself is called recursion.
+
+## Example
+
+```python
+def countdown(n):
+    if n == 0:
+        return
+    print(n)
+    countdown(n - 1)
+
+countdown(5)
+```
 
