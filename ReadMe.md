@@ -61,6 +61,136 @@ Enter your age: 1
 You are not eligible to vote.  
 Enter your marks: 65  
 Grade: C  
+ 
+ ## 5. Topic Loops:
 
+ # Python Loops
+
+Loops are used to execute a block of code repeatedly.
+
+## Types of Loops in Python
+
+1. for loop
+2. while loop
+
+---
+
+# for Loop
+
+The `for` loop is used to iterate over a sequence.
+
+## Syntax
+
+```python
+for variable in sequence:
+    # code
+```
+
+## Example
+
+```python
+for i in range(5):
+    print(i)
+```
+
+## Output
+
+```text
+0
+1
+2
+3
+4
+```
+
+---
+
+# while Loop
+
+The `while` loop executes as long as the condition is true.
+
+## Syntax
+
+```python
+while condition:
+    # code
+```
+
+## Example
+
+```python
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+```
+
+## Output
+
+```text
+1
+2
+3
+4
+5
+```
+
+---
+
+# Infinite Loop
+
+A loop that never ends is called an infinite loop.
+
+## Example
+
+```python
+while True:
+    print("Hello")
+```
+
+---
+
+# break Statement
+
+Used to stop the loop immediately.
+
+## Example
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+---
+
+# continue Statement
+
+Used to skip the current iteration.
+
+## Example
+
+```python
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+```
+
+---
+
+# Nested Loops
+
+A loop inside another loop is called a nested loop.
+
+## Example
+
+```python
+for i in range(3):
+    for j in range(2):
+        print(i, j)
+```
 
 

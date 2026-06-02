@@ -140,6 +140,16 @@ else:
 # Print:
 # "Transaction Successful"
 # Or proper error message
+'''AccountBlance=int(input("Enter your Account Balance:"))
+Withdrawal=int(input("Enter withdrawal:"))
+if AccountBlance>=Withdrawal and Withdrawal%100==0:
+    print("Transaction Successfull")
+elif Withdrawal>AccountBlance:
+    print("In-Efficient Money ")
+else:
+    print("Enter withdrawal multiple ")'''
+
+
 
 
 # 1️⃣2️⃣ Student Result System
@@ -152,6 +162,7 @@ else:
 # If average >= 50 → Second Class
 # Else Pass
 
+
 # 1️⃣3️⃣ Password Strength Checker
 # Take password as input.
 # Check:
@@ -161,6 +172,22 @@ else:
 # Print:
 # Strong Password
 # Weak Password
+'''password=input("Enter your password:")
+has_number=False
+has_digit=False
+length=0
+for ch in password:
+    length=length+1
+    
+    if ch>= '0' and ch<= '9':
+        has_number=True
+    if ch>='A' and ch<='Z':
+        has_digit=True
+if length>=8 and has_digit and has_number:
+    print("Strong Password")
+else:
+    print("Weak Password")'''
+
 
 # 1️⃣4️⃣ Electricity Bill Calculation
 # Units:
@@ -168,6 +195,11 @@ else:
 # Next 100 units → ₹7 per unit
 # Above 200 → ₹10 per unit
 # Calculate total bill.
+Units=int(input("Enter your Units Consume:"))
+bill=0
+
+
+
 
 
 # 1️⃣5️⃣ Triangle Type Checker
